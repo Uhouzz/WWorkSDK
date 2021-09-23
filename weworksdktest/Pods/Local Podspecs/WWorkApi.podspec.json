@@ -1,0 +1,38 @@
+{
+  "name": "WWorkApi",
+  "version": "0.16",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright (c) 2020 Tencent. All rights reserved.\n"
+  },
+  "summary": "WWorkApi for Cocoapods convenience.",
+  "homepage": "https://work.weixin.qq.com/api/doc/90000/90138/91074",
+  "authors": {
+    "Tencent": "weixinapp@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Uhouzz/WWorkSDK.git",
+    "tag": "0.16"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WWorkApi/*.h",
+  "public_header_files": "WWorkApi/*.h",
+  "vendored_libraries": "WWorkApi/*.a",
+  "requires_arc": false,
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Security",
+    "WebKit",
+    "CoreTelephony",
+    "CFNetwork",
+    "UIKit"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3.0",
+    "c++"
+  ]
+}

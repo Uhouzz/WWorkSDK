@@ -1,0 +1,38 @@
+{
+  "name": "WXWorkApi",
+  "version": "1.0.0",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright (c) 2020 Tencent. All rights reserved.\n"
+  },
+  "summary": "WXWorkApi for Cocoapods convenience.",
+  "homepage": "https://work.weixin.qq.com/api/doc/90000/90136/90294",
+  "authors": {
+    "Tencent": "weixinapp@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/iOSBoy/SNWeChatSDK.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WXWorkApi/*.h",
+  "public_header_files": "WXWorkApi/*.h",
+  "vendored_libraries": "WXWorkApi/*.a",
+  "requires_arc": false,
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Security",
+    "WebKit",
+    "CoreTelephony",
+    "CFNetwork",
+    "UIKit"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3.0",
+    "c++"
+  ]
+}

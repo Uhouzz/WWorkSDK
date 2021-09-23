@@ -1,0 +1,16 @@
+PODS:
+  - WWorkApi (0.16)
+
+DEPENDENCIES:
+  - WWorkApi (from `../`)
+
+EXTERNAL SOURCES:
+  WWorkApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWorkApi: cf35f4042e4ce1cabef72e5d4459cbf9c5944aec
+
+PODFILE CHECKSUM: 55a5960f842954cf900cf7ee7263995672db7b70
+
+COCOAPODS: 1.10.1
